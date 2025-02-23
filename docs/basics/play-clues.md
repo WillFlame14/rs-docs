@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - The "referential" part of *Referential Sieve* indicates that cards **next to** the desired cards are clued, rather than being clued directly.
 
 - To get a card (the *Target*) to play, a **colour clue** is given to the unclued card immediately to its **right** (the *Focus*).
-    - If no new cards are clued, this is instead a *Reclue* and is covered in level 2.
+    - If no new cards are clued, this is instead a [*Reclue*](../learning-path/level-2) and is covered in level 2.
 
 <figure>
     <img src={useBaseUrl('/img/play-clue.png')} alt="Alice clues yellow to Bob, touching slot 5." width="50%"/>

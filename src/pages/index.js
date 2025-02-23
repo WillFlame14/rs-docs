@@ -15,7 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">Optional extensions for 2-player <i><u><a style={{color: "black"}}href="https://hackmd.io/Ui6LXAK3TdC7AKSDcN20PQ">Referential Sieve</a></u></i></p>
+        <p className="hero__subtitle">Optional extensions for 2-player <i><u><a href="https://hackmd.io/Ui6LXAK3TdC7AKSDcN20PQ">Referential Sieve</a></u></i></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

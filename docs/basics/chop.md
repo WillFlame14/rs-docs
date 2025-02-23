@@ -39,7 +39,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </figure>
 
 - As explained above, any kind of safe action will move the card on slot 1 off chop.
-    - This includes *Referential Play Clues* and fill-in clues that reveal a safe action.
+    - This includes [*Referential Play Clues*](./play-clues) and fill-in clues that reveal a safe action.
 
 <figure>
     <img src={useBaseUrl('/img/managing-chop-2.png')} alt="y1 is played. Alice's hand is p3, y5, g2, y2, b3." width="100%"/>

@@ -88,3 +88,11 @@ p:has(+ ul) {
 .ds-dropdown-menu {
   border: 1px solid white!important;
 }
+
+.hero__subtitle a {
+  color: white;
+}
+
+[data-theme='dark'] .hero__subtitle a {
+  color: black;
+}

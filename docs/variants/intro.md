@@ -8,6 +8,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Many of these are taken from [sodium's score-hunting doc](https://hackmd.io/@sodiumdebt/scorehunt), with minor tweaks. Thanks to sodium and hallmark for introducing these to me!
 
+Unlike the corresponding H-Group variant docs, not all variants have their own page. Instead, a page is dedicated for a particular variant *quality*, and variants containing that quality will add those conventions. For example, a game of *Muddy Rainbow* is both brownish and rainbowish, so it uses all of the conventions on both pages, as well as any specific conventions for itself.
+
 ## General Principles
 
 ### Highest Lie Principle

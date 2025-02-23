@@ -9,9 +9,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Elimination Notes
 Global elimination notes are written when:
 - a delayed playable card (or 2) is called to discard
-- a delayed playable card (or 2) is given permission to discard while there were 2+ clues
+- a delayed playable card (or 2) is given *Permission To Discard* while there were 2+ clues
 
-In other situations, elim may not apply, or even if it does (e.g. from an unexpected play), it does not count as providing a safe action.
+In other situations, elimination may not apply, or even if it does (e.g. from an unexpected play), it does not count as providing a safe action.
 
 ## Special Discards
 
@@ -34,5 +34,5 @@ In other situations, elim may not apply, or even if it does (e.g. from an unexpe
 
 ### Trash Order Chop Move
 
-- This is [a similar convention to the one in H-Group]([a similar convention to the one in H-Group](https://hanabi.github.io/level-10#the-baton-discard), but not the same.), but not the same.
+- This is [a similar convention to the one in H-Group](https://hanabi.github.io/level-14#the-trash-order-chop-move-tocm), but not the same.
 - Known trash should be discarded from right-to-left.
