@@ -35,7 +35,7 @@ The precedence of interpreting rank clues is, from highest to lowest precedence:
 - This also applies to turn 1 (modifying *Starting Hand Stalls*).
 
 ### Pink Discard
-- When Bob is loaded, Alice can clue rank touching rightmost and slot 1 as a direct discard on pink trash in slot 1.
+- When Bob is loaded, Alice can clue rank touching rightmost unclued and slot 1 as a direct discard on pink trash in slot 1.
 - This prevents sieving in trash pink cards while loaded.
 
 ### Pink Positional (Pink Choice Tempo Clue)

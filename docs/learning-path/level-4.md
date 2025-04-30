@@ -13,6 +13,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Conventions
 
+- Unlike H-Group, being at 8 clues is not a special case of being locked. Both are stalling situations, but they arise due to different circumstances and are thus handled differently.
+	- At 8 clues, there are no *Colour Stalls*, but *Reclues* and *Lock Clues* are interpreted as stalls.
+
 ### Colour Clues While Locked
 
 - Any colour clue not touching slot 1 is a *Colour Stall*.
@@ -22,7 +25,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - *Playable Rank Clues* and *Referential Discard Clues* are the same as while unlocked.
 - [*Loaded Rank Play Clues*](./level-3#loaded-rank-play-clues) are interpreted as *Referential Discard Clues*.
-- *Reclues* and *Lock Clues* are interpreted as a stall.
+- *Reclues* and *Lock Clues* are interpreted as stalls.
 
 ### Locked Hand PTD
 
