@@ -21,4 +21,4 @@ These apply to variants with a suit that is touched by no ranks, such as Brown o
 ### Loaded 1's Order Chop Move
 - Playing a 1 out of order *Chop Moves* cards as if the other player was not loaded.
 - This can be used to save brown cards that would not get a `[cm]` note otherwise.
-- This overrides the [*Loaded 1's Order Discard*](../learning-path/level-7#loaded-1s-order-discard).
+- This overrides the [*Loaded 1's Order Discard*](../learning-path/level-8#loaded-1s-order-discard).

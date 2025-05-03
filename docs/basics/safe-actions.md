@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - A **safe action** is a known playable card or a known trash card.
     - For level 3 players, known trash includes cards with [*Permission to Discard*](../learning-path/level-3#hard-permission-to-discard).
-    - For level 5 players, known trash includes cards with [*Zero Clue Safety Promise*](../learning-path/level-5#zero-clue-safety-promise).
+    - For level 5 players, known trash includes cards with [*Zero Clue Safety Promise*](../learning-path/level-6#zero-clue-safety-promise).
 - Any clue that reveals a new safe action in a previously-clued card has **no additional meaning**, even if it touches new cards.
 
 <figure>

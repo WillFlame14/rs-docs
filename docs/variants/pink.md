@@ -6,6 +6,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Pinkish
 
+## Pinkish
+
 These apply to variants with a suit that is touched by all ranks, such as Pink or Omni.
 
 The precedence of interpreting rank clues is, from highest to lowest precedence:
@@ -53,3 +55,15 @@ The precedence of interpreting rank clues is, from highest to lowest precedence:
 	- In Dark Pink, since no pink cards can be trash, this is simply a *Pink Positional*.
 - If the leftmost touched card has already been promised, the focus shifts one to the right.
 - If a player is locked, this can cause a *Direct Discard* instead of a *Self-Prompt/Finesse/Bluff*.
+
+## Pinkish-1s
+
+In addition to the above, the following conventions apply with a pinkish-1s modification, such as Pink-1s or Omni-1s.
+
+### Turn 1 Signal Swap
+- On turn 1/2, any rank that is not 5 is treated as a rank clue of 1.
+	- This is because 1 is not cluable in these variants, and this allows multiple 1s to be gotten in a single clue.
+	- Note that *Good Touch Play Order* and *Pink 1s Assumption* still apply to these clues.
+	- This overrides [*Starting Hand Stalls*](../learning-path/level-5#starting-hand-stalls).
+- On turn 1/2, colour clues that don't target slot 1 are treated as *Referential Discard Clues*.
+	- This provides some flexibility for giving discard clues.
