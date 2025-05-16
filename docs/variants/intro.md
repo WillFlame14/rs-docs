@@ -13,7 +13,7 @@ Unlike the corresponding H-Group variant docs, not all variants have their own p
 ## General Principles
 
 ### Highest Lie Principle
-- When lying about promised cards (e.g. *Pink Promise*), prefer to lie with the highest rank/colour available.
+- When lying about promised cards (e.g. *Pink Promise*), prefer to lie with the highest rank/colour that still has the intended meaning.
 
 ### Good Touch Play
 - If unknown cards have been sitting around for a long time without a *Tempo Clue* and it is now endgame, the rightmost is promised to be playable.

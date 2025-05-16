@@ -16,6 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Starting Hand Stalls
 - On turn 1, if Alice clues a rank clue touching slot 5, this is a *Starting Hand Stall* and Bob is forced into a stalling situation.
   - If Alice doesn't immediately follow up with another clue, Bob has *Permission to Discard* slot 1.
+- This does not apply if Alice clues a *Playable Rank Clue*, such as 1.
 
 ### Rank Stalls
 - *Reclues* and *Lock Clues* are interpreted as stalls.

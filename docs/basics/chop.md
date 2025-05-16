@@ -30,8 +30,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Managing the chop
 
-- Partner should always either have a safe action or a safe chop (i.e. not playable or critical).
-- If partner's chop is important, a clue should be given to save it!
+- Your partner should always either have a safe action or a safe chop (i.e. not playable or critical).
+- If your partner's chop is important, a clue should be given to save it!
 
 <figure>
     <img src={useBaseUrl('/img/managing-chop.png')} alt="Alice's hand is g5, p2, b3, g2, b3." width="50%"/>

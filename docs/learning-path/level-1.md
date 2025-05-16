@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Level 1 - Basics
 
-This is a summary of the [*Basic Conventions*](../basics/play-clues). If you haven't read those, it's recommended to start there.
+This is a brief summary of the [*Basic Conventions*](../basics/play-clues). If you haven't read those, it's recommended to start there.
 
 ## Special Moves
 
