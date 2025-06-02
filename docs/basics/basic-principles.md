@@ -18,7 +18,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
     <img src={useBaseUrl('/img/sieve-principle.png')} alt="Alice's chop is trash, while Bob has a playable p3." width="100%"/>
-    <figcaption>Since Alice's chop is trash, Bob should play p3 and wait for Alice to discard, instead of getting r2.</figcaption>
+    <figcaption>Since Alice's chop is trash, Bob should play p3 and wait for Alice to discard, instead of getting r2 to play.</figcaption>
 </figure>
 
 ## Good Touch Principle

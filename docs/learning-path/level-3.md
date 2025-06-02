@@ -35,11 +35,16 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 
 ### Loaded Colour Clues
 
-- Colour clues have the same meaning while loaded (i.e. [*Referential Play Clues*](../basics/play-clues)).
-- Previously-targeted cards are skipped over when determining the *Target*.
+- A colour clue while loaded is a *Direct Play Clue* on the leftmost newly-clued card.
+  - The colour must not be known trash, otherwise it becomes a *Trash Push* (see below).
+
+<figure>
+    <img src={useBaseUrl('/img/loaded-colour.png')} alt="Alice is loaded with a play. Bob clues green to Alice, touching slot 1." width="100%"/>
+    <figcaption>Bob is cluing g3 in Alice's slot 1.</figcaption>
+</figure>
 
 ### Trash Push
-- A clue that touches only known trash is a *Trash Push*. If the receiver is *Loaded*, this has higher precedence than a *Loaded Rank Play Clue*.
+- A clue that touches only known trash is a *Trash Push*. This has higher precedence than a *Loaded Rank Play Clue*.
 - This is interpreted as if a colour clue was given touching the same cards, as a [*Referential Play Clue*](../basics/play-clues).
     - If the targeted card is clearly unplayable, the target shifts left (with wraparound) until reaching a potentially playable card.
 
@@ -54,7 +59,7 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 
 - When a card receives *Permission to Discard*, it is considered to be known trash. Discarding a card with *PTD* is thus considered to be a safe action, and a player that has a card with *PTD* is *Loaded*.
 - This means that they can receive *Loaded Rank Play Clues*, and they **do not have a chop** until the card with *PTD* is discarded.
-- This means that both players need to keep track of the everyone's safe actions, in order to determine which cards have *PTD* and when someone becomes *Loaded*.
+- This means that both players need to keep track of everyone's safe actions, in order to determine which cards have *PTD* and when someone becomes *Loaded*.
 - It helps to keep track of the card that has *PTD* by writing a note of `[kt]` on it.
 
 ### Revoking PTD

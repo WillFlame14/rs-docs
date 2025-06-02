@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Level 2 - Reclues
 
 - When a clue touches no new cards, it is called a **reclue**. A reclue that reveals a playable or trash card has no additional meaning.
-- But what if no safe action is revealed? Such a clue should be interpreted as intending the focused card to be playable, promising playable cards in the hand.
+- But what if no safe action is revealed? Such a clue should be interpreted as intending the focused card to be playable, promising other playable cards in the hand.
 	- The *Focus* of a reclue is the leftmost touched card.
 
 ## Special Moves
@@ -56,8 +56,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     <figcaption>Alice intends to *Double Bluff* Bob's slot 1 and slot 2.</figcaption>
 </figure>
 
-- A *No-Info Double Bluff* can be performed on cards that are already fully known, even known trash.
-- The only requirement is that the clue gives no new information about any touched cards.
+- A *No-Info Double Bluff* can be performed on cards that are already **fully known**, even known trash.
+    - The only requirement is that the clue gives no new information about any of the touched cards.
 
 ## Conventions
 
