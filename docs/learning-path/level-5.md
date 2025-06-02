@@ -29,13 +29,25 @@ Every other clue is interpreted normally.
 ## Emergency Situations
 
 ### Zero Clue Safety Promise
-- When Alice uses the last clue, she promises at least one safe discard in Bob's hand (referred to as *ZCSP*).
+- When Alice uses the last clue, she promises a safe discard in Bob's hand, referred to as *ZCSP*.
     - From highest to lowest priority, the possible targets are known trash, leftmost unclued and not [*Chop Moved*](./level-3#chop-moves), and least likely to be critical.
-- When Alice uses the last clue and all of Bob's cards are critical, Bob's next draw is *ZCSP*.
+    - A card with *ZCSP* is considered to be known trash, and the player is *Loaded* until it is discarded.
+- If all of Bob's cards are critical, Bob is not promised a safe discard.
+    - This is a very dangerous situation, and if Alice is unable to give Bob an *Extra Discard* as shown below, Bob should use his best judgement in deciding what to discard (likely the newest drawn card).
+
+<figure>
+    <img src={useBaseUrl('/img/zcsp.png')} alt="Alice uses the last clue to fill in a playable r5. Bob's slots 1 and 2 are unclued." width="100%"/>
+    <figcaption>Alice uses the last clue to fill in a playable r5. Since this clue *Chop Moves* slot 1, slot 2 is promised to be *ZCSP*.</figcaption>
+</figure>
 
 ### Zero Clue Free Choice Extra Discard
-- At 0 clues, if Alice has free choice between playing and discarding trash (including *PTD* or *ZCSP*), playing promises Bob's slot 1 to be trash.
+- **At 0 clues**, if Alice has both a playable and known trash (including *PTD* or *ZCSP*), playing promises Bob's slot 1 to be trash.
+    - As a corollary, discarding causes a [*Chop Move*](./level-3#chop-moves) on slot 1.
 - This can give Bob *Free Choice* to give Alice an *Extra Discard* as well.
+- If the clue count is above 0, choosing to play over discard has no extra meaning.
+
+In the example in the previous section, since Bob can discard *ZCSP* in slot 2, playing r5 gives Alice an *Extra Discard* in slot 1.
+  - Normally, it would be automatically sieved after Alice plays her known y2.
 
 ### Bomb Lock
 - Bombing known trash (including cards with *PTD* or *ZCSP*) locks the other player.

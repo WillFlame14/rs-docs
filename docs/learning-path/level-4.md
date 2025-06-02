@@ -56,7 +56,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
     <img src={useBaseUrl('/img/unlock-promise.png')} alt="Bob is locked, with an unknown card, a clued 4, g4, y5, and a clued 3. Alice has a known r1, unknown LH PTD, y3 and p2. The play stacks are at [0, 2, 2, 2, 1]." width="100%"/>
-    <figcaption>Bob is locked. Alice has multiple choices of playable cards, as well as *LH PTD* on slot 2.</figcaption>
+    <figcaption>Bob is locked. Alice has multiple choices of playable cards, as well as *LH PTD* on slot 3.</figcaption>
 </figure>
 
 In the above example, Alice has several options, each with different meanings:
