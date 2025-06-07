@@ -19,7 +19,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### Loaded 1's Order Discard
 - If the other player is loaded, all of their cards will be sieved, so it doesn't make sense to *Chop Move* any of tthem.
-- Instead, skipping _N_ cards means that the other player's _N_'th chop position is known trash.
+- Instead, skipping _N_ cards means that the other player's _N_'th unclued card from the left is known trash.
+
+<figure>
+    <img src={useBaseUrl('/img/loaded-1ocd.png')} alt="Bob is loaded with playable 1s in slots 3, 4 and 5. Alice plays her 1 in slot 5 instead of her 1 in slot 2." width="100%"/>
+    <figcaption>Since Alice skipped one 1 (played slot 5 instead of slot 2), she is indicating that Bob's slot 1 is trash.</figcaption>
+</figure>
 
 ## Conventions
 

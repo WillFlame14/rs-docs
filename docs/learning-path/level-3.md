@@ -30,17 +30,19 @@ This works in essentially the same way as a *Referential Play Clue*, but toward 
 In the following example, Bob was previously given a *Referential Discard Clue* targeting slot 4.
 <figure>
     <img src={useBaseUrl('/img/loaded-rank-play.png')} alt="Bob is loaded with a safe discard. Alice clues 3 to Bob, touching slot 1." width="100%"/>
-    <figcaption>Alice is calling for Bob's slot 2 to play.</figcaption>
+    <figcaption>Since Bob is loaded with a safe discard, Alice is calling for Bob's slot 2 to play.</figcaption>
 </figure>
 
 ### Loaded Colour Clues
 
-- A colour clue while loaded is a *Direct Play Clue* on the leftmost newly-clued card.
-  - The colour must not be known trash, otherwise it becomes a *Trash Push* (see below).
+- The meaning of a loaded colour clue depends on what the player is loaded on.
+    - If they are loaded on a **discard**, then a colour clue is a normal *Referential Play Clue*.
+    - Otherwise they are loaded on a **play**, and a colour clue is a *Direct Play Clue* on the leftmost newly-clued card.
+- The colour must not be known trash, otherwise it becomes a *Trash Push* (see below).
 
 <figure>
     <img src={useBaseUrl('/img/loaded-colour.png')} alt="Alice is loaded with a play. Bob clues green to Alice, touching slot 1." width="100%"/>
-    <figcaption>Bob is cluing g3 in Alice's slot 1.</figcaption>
+    <figcaption>Since Alice is loaded on a play, Bob must be cluing g3 in Alice's slot 1. This is not a *Referential Play Clue*.</figcaption>
 </figure>
 
 ### Trash Push

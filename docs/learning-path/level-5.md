@@ -50,7 +50,7 @@ In the example in the previous section, since Bob can discard *ZCSP* in slot 2, 
   - Normally, it would be automatically sieved after Alice plays her known y2.
 
 ### Bomb Lock
-- Bombing known trash (including cards with *PTD* or *ZCSP*) locks the other player.
+- Bombing known trash (including *PTD* or *ZCSP*) locks the other player.
 
 ### Scream Lock
 - Discarding chop or known trash while having a globally known playable (outside of *SDCMs* at 0 clues) locks the other player.
