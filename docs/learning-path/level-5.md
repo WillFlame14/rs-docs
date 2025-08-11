@@ -41,9 +41,10 @@ Every other clue is interpreted normally.
 </figure>
 
 ### Zero Clue Free Choice Extra Discard
-- **At 0 clues**, if Alice has both a playable and known trash (including *PTD* or *ZCSP*), playing promises Bob's slot 1 to be trash.
-    - As a corollary, discarding causes a [*Chop Move*](./level-3#chop-moves) on slot 1.
-- This can give Bob *Free Choice* to give Alice an *Extra Discard* as well.
+- **At 0 clues**, if Alice can choose between regaining a clue and not, staying at zero clues promises Bob's slot 1 to be trash as an *Extra Discard*.
+    - As a corollary, gaining a clue (by discarding or playing a 5) causes a [*Scream Discard Chop Move*](./level-3#chop-moves) on slot 1.
+    - If Alice can only choose between playing a 5 or discarding, playing the 5 promises Bob's slot 1 to be trash.
+- Giving Bob an *Extra Discard* may allow Bob to have *Free Choice* to give Alice an *Extra Discard* as well.
 - If the clue count is above 0, choosing to play over discard has no extra meaning.
 
 In the example in the previous section, since Bob can discard *ZCSP* in slot 2, playing r5 gives Alice an *Extra Discard* in slot 1.

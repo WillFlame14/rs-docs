@@ -16,6 +16,10 @@ These apply to variants with a suit that is touched by no colours, such as White
 - In locked situations where a no-info clue looks like a stall, a colour clue retouching the leftmost previously-coloured card is a play on slot 1.
 - This is because a whitish card cannot be touched with a [colour clue to get it to play](../learning-path/level-4#colour-clues-while-locked).
 
+### Whitish Tempo
+- A *Reclue* that touches a card that could be the next whitish identity to play is a *Direct Play Clue* on it.
+- This overrides *No-Info Single Bluff*, even if the possibly-whitish card is not the leftmost touched.
+
 ### Whitish Notes
 - Giving a direct rank clue to slot 1 or performing a *No-Info Single Bluff* promises slot 2 is whitish.
 - Unless proven non-whitish later, *Referential Play Clues* skip over this card as long as no new whitish cards have played.

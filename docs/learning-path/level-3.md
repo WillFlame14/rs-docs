@@ -36,8 +36,8 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 ### Loaded Colour Clues
 
 - The meaning of a loaded colour clue depends on what the player is loaded on.
-    - If they are loaded on a **discard**, then a colour clue is a normal *Referential Play Clue*.
-    - Otherwise they are loaded on a **play**, and a colour clue is a *Direct Play Clue* on the leftmost newly-clued card.
+    - If they are loaded on only **discards**, then a colour clue is a normal *Referential Play Clue*.
+    - Otherwise they are loaded on at least one **play**, and a colour clue is a *Direct Play Clue* on the leftmost newly-clued card.
 - The colour must not be known trash, otherwise it becomes a *Trash Push* (see below).
 
 <figure>
