@@ -67,3 +67,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - If it is possible that no *Finesses* are required, only *Prompts*, then this is the preferred interpretation.
 - If at least one blind play would be required, it should be performed first.
     - If the blind-played card doesn't connect, this becomes a *Bluff* and the receiver isn't promised anything else.
+
+<figure>
+    <img src={useBaseUrl('/img/prompts-finesses.png')} alt="Bob clues 5 to Alice, filling in a green 5. Alice has two other cards clued with green." width="100%"/>
+    <figcaption>Since 1 blind play is required, Alice should play slot 1 first. She is promised g4 in slot 4 and g3 in slot 5 only if it is g2.</figcaption>
+</figure>

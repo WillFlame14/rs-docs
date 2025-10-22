@@ -26,3 +26,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 	- colour for START cards (giver should play START next)
 	- rank for 1/5 cards (giver should respond with colour if receiver has START, otherwise giver should play their own card next)
 - If giver plays, the receiver receives *PTD* on the leftmost unclued slot. Thus, giver can follow up with a rank clue after receiver responds if slot 2 is not safe, which is **not** loaded.
+
+### Inverted
+- A *Referential Play Clue* focusing an Inverted card means to drag it to the play stacks (discard it).
+	- This is because if we wanted it to be dragged to the discard pile (play it), we would do nothing and let it receive *PTD*.

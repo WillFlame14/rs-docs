@@ -16,7 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     <figcaption>Alice's clue reveals a playable y3. This is not a *Referential Play Clue*.</figcaption>
 </figure>
 
-- Note that safe actions can be indicated with clues that don't touch the cards they are signalling to be playable or trash.
+- Safe actions can be indicated with clues that don't touch the cards they are signalling to be playable or trash.
 
 <figure>
     <img src={useBaseUrl('/img/safe-actions-2.png')} alt="y4 is on the play stacks. Alice clues 5 to Bob, revealing a yellow card as !5." width="100%"/>

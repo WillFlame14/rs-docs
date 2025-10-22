@@ -59,9 +59,10 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 
 ### Hard Permission to Discard
 
-- When a card receives *Permission to Discard*, it is considered to be known trash. Discarding a card with *PTD* is thus considered to be a safe action, and a player that has a card with *PTD* is *Loaded*.
-- This means that they can receive *Loaded Rank Play Clues*, and they **do not have a chop** until the card with *PTD* is discarded.
-- This means that both players need to keep track of everyone's safe actions, in order to determine which cards have *PTD* and when someone becomes *Loaded*.
+- When a card receives *Permission to Discard*, it is considered to be known trash. Discarding a card with *PTD* is thus a safe action, and a player that has a card with *PTD* is *Loaded*.
+    - They can receive *Loaded Rank Play Clues*, and they **do not have a chop** until the card with *PTD* is discarded.
+- Both players need to keep track of everyone's safe actions, in order to determine which cards have *PTD* and when someone becomes *Loaded*.
+- Importantly, *PTD* notes are **not removed** even after a card moves off chop. 
 - It helps to keep track of the card that has *PTD* by writing a note of `[kt]` on it.
 
 ### Revoking PTD

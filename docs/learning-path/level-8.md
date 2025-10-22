@@ -12,6 +12,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - If a player has two playable cards, one of which connects to their own hand and the other doesn't connect to anything, playing the connecting card is often better.
 - Thus, playing the non-connecting card is a *Priority Prompt* on the rightmost card that could reasonably be the connecting card, or a *Priority Finesse/Bluff* on the leftmost unclued card.
 
+In the following example, Alice's y4 is clued only with yellow.
+
+<figure>
+    <img src={useBaseUrl('/img/self-connecting-prio.png')} alt="Bob has known b3, b4 and y3, with the blue and yellow stacks both at 2. Alice has a y5 on chop." width="100%"/>
+    <figcaption>Bob can play y3 as a *Self-Connecting Priority Prompt*, thus not needing to save Alice's y5 on chop.</figcaption>
+</figure>
+
 ## Conventions
 
 ### Quasi-Locked

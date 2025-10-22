@@ -25,7 +25,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     <figcaption>After slot 4 plays, Bob will get a new chop.</figcaption>
 </figure>
 
-- That card is now **sieved**: it will never be on chop again.
+- That card is now **sieved**. As cards can only move toward the right of one's hand, it will never be on chop again.
 - Sieving trash cards into the hand is very bad, because additional clues will be needed to make them discard!
 
 ## Managing the chop
