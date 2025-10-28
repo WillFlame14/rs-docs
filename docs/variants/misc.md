@@ -21,7 +21,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - A 1 clue after turn 1 in *Reversed* always has to be respected as touching the reversed 1.
 
 ### Up or Down Loaded Direct Colour Clues
-- In *Up or Down*, a colour clue while loaded means that the leftmost touched card can start the stack. If the stack for that colour has already started, the clue is treated as a normal *Referential Play Clue*.
+- In *Up or Down*, a colour clue while the ***giver*** is loaded means that the leftmost touched card can start the stack. If the stack for that colour has already started, the clue is treated as a *Referential Play Clue*.
+	- This is different from the [*Loaded Colour Clues*](../learning-path/level-3#loaded-colour-clues) convention, which requires that the ***receiver*** is loaded.
 - If a *Loaded Direct Colour Clue* is given while the giver is loaded on the same colour, the receiver should respond with the clue matching the card.
 	- colour for START cards (giver should play START next)
 	- rank for 1/5 cards (giver should respond with colour if receiver has START, otherwise giver should play their own card next)
