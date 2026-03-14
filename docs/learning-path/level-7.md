@@ -33,3 +33,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### PTD Revoke Exception for Loaded Rank Play Clues
 - Receiving a loaded rank clue (while only loaded on *PTD*) that seems to target slot 1 instead means to reset chop to slot 1.
+
+In the following example, Alice previously had *PTD* on slot 2 (r3).
+
+<figure>
+    <img src={useBaseUrl('/img/revoke-ptd.png')} alt="Alice newly drew a trash n1, with a p4 in slot 3 and two clued cards in slots 4 and 5." width="100%"/>
+    <figcaption>Bob can clue 4 to Alice to revoke PTD on r3 (as it would be a *Loaded Rank Play Clue* targeting slot 1).</figcaption>
+</figure>

@@ -22,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
     <img src={useBaseUrl('/img/play-clue.png')} alt="Alice clues yellow to Bob, touching slot 5." width="50%"/>
-    <figcaption>After slot 4 plays, Bob will get a new chop.</figcaption>
+    <figcaption>After Bob plays slot 4 (from the *Referential Play Clue*), he will get a new chop.</figcaption>
 </figure>
 
 - That card is now **sieved**. As cards can only move toward the right of one's hand, it will never be on chop again.
@@ -35,10 +35,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
     <img src={useBaseUrl('/img/managing-chop.png')} alt="Alice's hand is g5, p2, b3, g2, b3." width="50%"/>
-    <figcaption>To prevent g5 from being discarded, Bob can clue 2 to Alice (as a *Referential Discard Clue*).</figcaption>
+    <figcaption>To prevent Alice from discarding g5, Bob can clue 2 to Alice (as a *Referential Discard Clue*).</figcaption>
 </figure>
 
-- As explained above, any kind of safe action will move the card on slot 1 off chop.
+- Giving any safe action will move the card on slot 1 off chop.
     - This includes [*Referential Play Clues*](./play-clues) and fill-in clues that reveal a safe action.
 
 <figure>

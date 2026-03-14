@@ -48,18 +48,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Unlock Promise
 
 - If the unlocked player chooses to play a **commonly-known** card even when they have *Locked Hand PTD*, this promises that the locked player can become unlocked.
-  - If the unlocked player plays a card that is not commonly known, this does not promise an unlock.
+  - If the unlocked player plays a card whose identity is not commonly known, this does not promise an unlock.
 - To determine how to unlock, the locked player should first try to connect in the same suit.
   - For example, if r3 was played, the locked player should try to prompt a card as r4.
 - If no cards could connect, then they should try the card most likely to be playable, biasing rightmost.
-- If the unlocked player could be trying to connect through multiple cards in their own hand (e.g. r3, r4 to connect to a potential r5), then the locked player should continue to stall.
+- If the unlocked player could be trying to connect through multiple cards in their own hand (e.g. r3 and r4 to connect to r5), then the locked player should continue to stall.
 
 <figure>
     <img src={useBaseUrl('/img/unlock-promise.png')} alt="Bob is locked, with an unknown card, a clued 4, g4, y5, and a clued 3. Alice has a known r1, unknown LH PTD, y3 and p2. The play stacks are at [0, 2, 2, 2, 1]." width="100%"/>
-    <figcaption>Bob is locked. Alice has multiple choices of playable cards, as well as *LH PTD* on slot 3.</figcaption>
+    <figcaption>Bob is locked, telling Alice about r1 in slot 1. Alice has multiple choices of playable cards, as well as *LH PTD* on slot 3.</figcaption>
 </figure>
 
-In the above example, Alice has several options, each with different meanings:
+In the above example, Bob is locked. Alice has several options, each with different meanings:
 - If Alice plays r1, Bob's slot 1 is promised to be r2 (or some other playable card).
 - If Alice plays y3, Bob's slot 2 is promised to be y4.
 - If Alice plays p2, Bob's slot 5 is promsied to be p3.
@@ -78,4 +78,4 @@ In the example in the previous section, if Alice discards *LH PTD* and then play
 
 ### Locked Direct Discard Clues
 - Sometimes, the best move in a locked situation is to discard a 4 that is far from being playable.
-- When a clue is given to a locked player that reveals a 2-away or farther non-critical 4, the intent is for the locked player to discard the 4.
+- When a clue is given to a locked player that reveals a 2-away or farther non-critical 4, the locked player should discard the 4.

@@ -6,8 +6,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Level 2 - Reclues
 
-- When a clue touches no new cards, it is called a **reclue**. A reclue that reveals a playable or trash card has no additional meaning.
-- But what if no safe action is revealed? Such a clue should be interpreted as intending the focused card to be playable, promising other playable cards in the hand.
+- A clue that touches no new cards is called a **reclue**. A reclue that reveals a playable or trash card has no additional meaning.
+- If no safe action is revealed, such a clue intends the focused card to be playable, promising other playable cards in the hand.
 	- The *Focus* of a reclue is the leftmost touched card.
 
 ## Special Moves
@@ -35,7 +35,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### The Bluff
 
-- It is not required that the blind-played card actually connects to the *Focus* in a *Finesse*, as long as it is playable.
+- The blind-played card doesn't need to actually connect to the *Focus* in a *Finesse*, as long as it is playable.
 - If the card does not connect, this is known as a *Bluff*.
 - After the blind play of an unconnected card, the receiver will know that a *Bluff* occurred and stop playing.
 
@@ -70,5 +70,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <figure>
     <img src={useBaseUrl('/img/prompts-finesses.png')} alt="Bob clues 5 to Alice, filling in a green 5. Alice has two other cards clued with green." width="100%"/>
-    <figcaption>Since 1 blind play is required, Alice should play slot 1 first. She is promised g4 in slot 4 and g3 in slot 5 only if it is g2.</figcaption>
+    <figcaption>Since 1 blind play is required, Alice should play slot 1 first. She is promised g4 in slot 4 and g3 in slot 5 only if slot 1 is g2.</figcaption>
 </figure>
+
+### Differentiating a Bluff and a Finesse
+
+- If more than 1 blind play would be required, it is always a *Bluff*.
+- Otherwise, it is only a *Finesse* if the blind-played card could connect to the focused card.

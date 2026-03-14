@@ -12,13 +12,13 @@ This is a brief summary of the [*Basic Conventions*](../basics/play-clues). If y
 
 ### Referential Play Clues
 
-- To get a card (the *Target*) to play, a **colour clue** is given to the unclued card immediately to its **right** (the *Focus*).
+- To get an unclued card (the *Target*) to play, a **colour clue** is given to the unclued card immediately to its **right** (the *Focus*).
 - The *Focus* of the clue is the leftmost **newly-clued** card, except slot 1 has the lowest precedence.
 - The *Target* of the clue is the **previously-unclued** card to its left, wrapping around to the right side if necessary.
 
 ### Referential Discard Clues
 
-- To get a card (the *Target*) to discard, a **rank clue** is given to the unclued card immediately to its **left** (the *Focus*).
+- To get an unclued card (the *Target*) to discard, a **rank clue** is given to the unclued card immediately to its **left** (the *Focus*).
 - The *Focus* of the clue is the leftmost **newly-clued** card.
 - The *Target* of the clue is the **unclued** card to its right (no wraparound).
 - A discard clue that has no *Target* is a *Lock Clue*, and the receiver cannot discard any card until further information is given.
@@ -39,10 +39,10 @@ This is a brief summary of the [*Basic Conventions*](../basics/play-clues). If y
 ## Rationale
 
 - *Referential Discard Clues* are rank instead of colour since they are less likely to be blocked when trying to discard trash.
-  - For both types of clues, they will be blocked if a useful card of the same rank/colour is directly to its left.
+  - A clue would be blocked if a useful card of the same rank/colour is directly to the left of a trash card.
   - However, *Playable Rank Clues* allow playable cards on the left to be played before potential trash cards on the right.
   - A potential *Playable Colour Clue* variation would only work when the particular stack is up to 4, and is thus much less useful.
 
 - The *Lock Clue* can be thought of as a *Referential Discard Clue* that targets slot 1 (with wraparound).
-  - This clue is useless, since even if this clue was not given, the default action would be to discard slot 1.
+  - This clue is useless, since the default action would be to discard slot 1 even if this clue wasn't given.
   - Thus, the clue is repurposed to have a different meaning.

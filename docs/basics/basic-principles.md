@@ -32,4 +32,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </figure>
 
 - Sometimes, a card cannot be targeted without violating good touch. This is acceptable; it is much more important to save or play the targeted cards.
-  - A clue should be given revealing the trash card as soon as possible.
+  - However, a clue should be given revealing the trash card as soon as possible.

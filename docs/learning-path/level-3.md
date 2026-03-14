@@ -11,9 +11,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### Loaded Clues
 
 - A player is *Loaded* if they have a safe action.
-- If a player has more than one safe action, note that some of the cards they draw will never be on chop.
+- If a player has more than one safe action, some of the cards they draw will never be on chop.
 	- Those cards will be "automatically sieved" as the player performs their safe actions.
-- Thus, cluing *Loaded* players is low-value, since they'll end up with more than one safe action and trash cards might be sieved into their hand.
+- Thus, cluing *Loaded* players is low-value, since they'll have more than one safe action and may sieve trash into their hand.
 
 ### Loaded Rank Play Clues
 
@@ -69,6 +69,7 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 
 - If necessary, *PTD* can be revoked by cluing the card directly. This can occur due to double discard situations, for example.
 - Such a clue should be interpreted as if the player did not previously have *PTD*.
+- Level 7+ players have [another way to revoke PTD](./level-7#ptd-revoke-exception-for-loaded-rank-play-clues).
 
 ### Chop Moves
 
