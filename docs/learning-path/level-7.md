@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### No-Info Bluff+Prompt
 - If a no-info clue is given but the receiver only has one unclued card, it calls for a *No-Info Bluff+Prompt*, with the prompt on the leftmost touched card in the no-info clue.
 - If the leftmost touched card is known to be unpromptable, it moves to the right.
-- If all touched cards are known to be unpromptable, it becomes the leftmost unknown card (not necessarily touched).
+- If all touched cards are known to be unpromptable, it becomes the leftmost unknown card.
 
 ### 1's Order Chop Move
 - This is [a similar convention to the one in H-Group](https://hanabi.github.io/level-4#the-order-chop-move-ocm), but not the same.

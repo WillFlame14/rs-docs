@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - A *Loaded* player will never discard their chop, so it doesn't make sense to give them a *Referential Discard Clue*.
 - A rank clue while loaded is instead a signal to play the card to the right of the newly-clued cards.
-  - The rank must not be known trash, otherwise it becomes a *Trash Push* (see below).
+	- The rank must not be known trash, otherwise it becomes a *Trash Push* (see below).
 
 When multiple cards are clued, 
 - The *Focus* of the clue is the rightmost **newly-clued** card, but the rightmost previously-unclued card has lowest precedence.
@@ -36,8 +36,8 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 ### Loaded Colour Clues
 
 - The meaning of a loaded colour clue depends on what the player is loaded on.
-    - If they are loaded on only **discards**, then a colour clue is a normal *Referential Play Clue*.
-    - Otherwise they are loaded on at least one **play**, and a colour clue is a *Direct Play Clue* on the leftmost newly-clued card.
+  	- If they are loaded on only **discards**, then a colour clue is a normal *Referential Play Clue*.
+  	- Otherwise they are loaded on at least one **play**, and a colour clue is a *Direct Play Clue* on the leftmost newly-clued card.
 - The colour must not be known trash, otherwise it becomes a *Trash Push* (see below).
 
 <figure>
@@ -48,7 +48,7 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 ### Trash Push
 - A clue that touches only known trash is a *Trash Push*. This has higher precedence than a *Loaded Rank Play Clue*.
 - This is interpreted as if a colour clue was given touching the same cards, as a [*Referential Play Clue*](../basics/play-clues).
-    - If the targeted card is clearly unplayable, the target shifts left (with wraparound) until reaching a potentially playable card.
+  	- If the targeted card is clearly unplayable, the target shifts left (with wraparound) until reaching a potentially playable card.
 
 <figure>
     <img src={useBaseUrl('/img/trash-push.png')} alt="All 1s have been played. Alice clues 1 to Bob, touching slots 1, 2, 3, 5." width="100%"/>
@@ -60,7 +60,7 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 ### Hard Permission to Discard
 
 - When a card receives *Permission to Discard*, it is considered to be known trash. Discarding a card with *PTD* is thus a safe action, and a player that has a card with *PTD* is *Loaded*.
-    - They can receive *Loaded Rank Play Clues*, and they **do not have a chop** until the card with *PTD* is discarded.
+  	- They can receive *Loaded Rank Play Clues*, and they **do not have a chop** until the card with *PTD* is discarded.
 - Both players need to keep track of everyone's safe actions in order to determine which cards have *PTD* and when someone becomes *Loaded*.
 - Importantly, *PTD* notes are **not removed** even after a card moves off chop. 
 - It helps to keep track of the card that has *PTD* by writing a note of `[kt]` on it.
@@ -76,4 +76,4 @@ In the following example, Bob was previously given a *Referential Discard Clue* 
 - If a card is intentionally sieved in and doesn't receive *PTD*, the card must be important.
 - This can be noted using a note of `[cm]`, which stands for *Chop Move*.
 - *Chop Moved* cards are not special: the note is purely for personal information and such cards can still be targeted by *Referential Discard Clues*.
-    - This is different from H-Group, where cards that have been *Chop Moved* are no longer eligible to be discarded.
+  	- This is different from H-Group, where cards that have been *Chop Moved* are no longer eligible to be discarded.

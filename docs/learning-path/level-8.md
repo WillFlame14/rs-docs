@@ -22,11 +22,12 @@ In the following example, Alice's y4 is clued only with yellow.
 ## Conventions
 
 ### Quasi-Locked
-- If Alice is given a *Referential Discard Clue* and could be discarding a possibly good card while Bob has known trash (including *PTD*), she is allowed to stall for 1 turn by giving a *Fill-In Clue* to Bob or a direct colour clue (focusing leftmost). This is **not** additionally referential.
+- If Alice is given a *Referential Discard Clue* and could be discarding a useful card while Bob has known trash (including *PTD*), she can stall for 1 turn by giving a *Fill-In Clue* to Bob or a direct colour clue (focusing leftmost). This is **not** additionally referential.
 - If Bob plays, it is treated as *Unlock Promise* on Alice, targeting the card called to discard. Otherwise, Bob should discard.
 - This prevents the situation where Alice is forced to discard a 1-away card that connects through an unknown card in Bob's hand.
+- In rainbowish variants, [*Colour Truth*](../variants/rainbow#quasi-locked-colour-truth) applies to this convention.
 
-In the following example, Alice has just told Bob's slot 2 to discard. Alice also has *PTD* in slot 1.
+In the following example, Alice has previously told Bob's slot 2 to discard. Alice also has *PTD* in slot 1.
 
 <figure>
     <img src={useBaseUrl('/img/quasi-locked.png')} alt="Bob clues green to Alice, touching slots 4 and 5." width="100%"/>

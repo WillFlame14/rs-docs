@@ -37,7 +37,7 @@ The precedence of interpreting rank clues is, from highest to lowest precedence:
 ### Pink Promise (Reclue)
 - If no new cards are clued, *Pink Promise* is on the leftmost card that was touched (as usual). This can cause a *Self-Prompt/Finesse/Bluff* if the rank is not yet playable, or indicate known trash if the rank has already been played.
 	- In Dark Pink, since no pink cards can be trash, this is simply a *Pink Positional*.
-- If the leftmost touched card has already been promised, the focus shifts 1 touched card to the right.
+- If the leftmost touched card has already been promised, the focus shifts to the next touched card to the right.
 - If a player is locked, this can cause a *Direct Discard* instead of a *Self-Prompt/Finesse/Bluff*.
 
 ### Pink 1s Assumption
@@ -59,13 +59,14 @@ The precedence of interpreting rank clues is, from highest to lowest precedence:
 
 ### Pink 8 Clue Stall
 - At 8 clues, Alice can clue rank (excluding playable ranks and trash) touching rightmost and slot 1 to force Bob to stall.
-- If a follow-up clue is not received, Bob's slot 1 (which is now clued) is given permission to discard.
+- If a follow-up clue is not received, Bob's **slot 1 (which is now clued)** is given permission to discard.
 - This also applies to turn 1, modifying [*Starting Hand Stalls*](../learning-path/level-5#starting-hand-stalls).
 
 ### Pink Discard
-- When Bob is loaded, Alice can clue rank touching the rightmost unclued slot and slot 1 as a **direct discard** on pink trash in slot 1. This prevents sieving in trash pink cards while loaded.
+- When Bob is loaded, Alice can clue rank touching the rightmost unclued slot and slot 1 as a **direct discard** on pink trash in slot 1.
+	- This prevents sieving in trash pink cards while loaded.
 - *Pink Promise* applies to the rightmost unclued slot.
-- As mentioned in the precedence table, this overrides [*Loaded Rank Play Clues*](../learning-path/level-3#loaded-rank-play-clues).
+- As mentioned in the precedence table, this overrides [*Loaded Rank Play Clues*](../learning-path/level-3#loaded-rank-play-clues) and [*Trash Push*](../learning-path/level-3#loaded-rank-play-clues).
 
 <figure>
     <img src={useBaseUrl('/img/pink-dc.png')} alt="Alice is loaded on r3. Bob clues 5 to Alice, touching slots 1 and 3." width="50%"/>

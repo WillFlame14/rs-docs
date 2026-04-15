@@ -23,3 +23,8 @@ These apply to variants with a suit that is touched by all colours, such as Rain
     <img src={useBaseUrl('/img/rainbow-promise.png')} alt="Alice's slots 2, 4 and 5 are previously clued. Bob clues blue to Alice, touching slots 2 and 3." width="100%"/>
     <figcaption>This promises Alice's slot 3 to either be a blue card, m1 or m5. She would write a note of [b,m1,m5].</figcaption>
 </figure>
+
+### Quasi-Locked Colour Truth
+- In rainbowish variants, *Colour Truth* applies to Alice's direct clues while [*Quasi-Locked*](../learning-path/level-8#quasi-locked).
+- Bob may assume Alice is directly cluing the suit of the matching colour and not a rainbowish suit.
+- If Bob plays and it turns out to be a rainbow card, Alice is not promised anything.

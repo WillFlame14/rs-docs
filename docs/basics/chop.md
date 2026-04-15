@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - The "sieve" part of *Referential Sieve* indicates that slot 1 acts like a sieve for cards entering the hand.
 - When a player has no safe actions, they are given *Permission to Discard* slot 1.
-    - This is called the **chop**, since it's like the card is on the "chopping block".
+  	- This is called the **chop**, since it's like the card is on the "chopping block".
 - If a player has a safe action, they do not have a chop.
 
 <figure>
@@ -39,7 +39,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </figure>
 
 - Giving any safe action will move the card on slot 1 off chop.
-    - This includes [*Referential Play Clues*](./play-clues) and fill-in clues that reveal a safe action.
+  	- This includes [*Referential Play Clues*](./play-clues) and fill-in clues that reveal a safe action.
 
 <figure>
     <img src={useBaseUrl('/img/managing-chop-2.png')} alt="y1 is played. Alice's hand is p3, y5, g2, y2, b3." width="100%"/>

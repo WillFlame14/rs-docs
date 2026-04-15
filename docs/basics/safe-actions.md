@@ -7,8 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Safe Actions
 
 - A **safe action** is a known playable card or a known trash card.
-    - For level 3+ players, known trash includes cards with [*Permission to Discard*](../learning-path/level-3#hard-permission-to-discard).
-    - For level 5+ players, known trash includes cards with [*Zero Clue Safety Promise*](../learning-path/level-5#zero-clue-safety-promise).
+	- A known trash card includes cards *Called to Discard* by a *Referential Discard Clue*.
+  	- For level 3+ players, known trash includes cards with [*Permission to Discard*](../learning-path/level-3#hard-permission-to-discard).
+  	- For level 5+ players, known trash includes cards with [*Zero Clue Safety Promise*](../learning-path/level-5#zero-clue-safety-promise).
 - Any clue that reveals a safe action in a previously-clued card has **no additional meaning**, even if it touches new cards.
 
 <figure>
@@ -24,7 +25,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </figure>
 
 - However, a colour clue that reveals a new safe action in a **newly-clued** card is still referential.
-    - A rank clue that reveals a new safe action in a newly-clued card is a *Playable Rank Clue*, covered below.
+  	- A rank clue that reveals a new safe action in a newly-clued card is a *Playable Rank Clue*, covered below.
 
 <figure>
     <img src={useBaseUrl('/img/safe-actions-3.png')} alt="p4 is on the play stacks. Alice clues purple to Bob, touching slot 2." width="100%"/>

@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### The Prompt
 
 - When there are clued cards that could connect to the card, the **rightmost** such card is promised to connect.
-    - Connecting cards can match in either rank or colour.
+  	- Connecting cards can match in either rank or colour.
 - This is called a *Prompt*, since it is like the card is being "prompted" to play.
 
 <figure>
@@ -57,7 +57,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </figure>
 
 - A *No-Info Double Bluff* can be performed on cards that are already **fully known**, even known trash.
-    - The only requirement is that the clue gives no new information about any of the touched cards.
+  	- The only requirement is that the clue gives no new information about any of the touched cards.
 
 ## Conventions
 
@@ -66,7 +66,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - If the focus is more than 1-away from playable, it is ambiguous whether to play into a *Prompt* or a *Finesse*.
 - If it is possible that no *Finesses* are required, only *Prompts*, then this is the preferred interpretation.
 - If at least one blind play would be required, it should be performed first.
-    - If the blind-played card doesn't connect, this becomes a *Bluff* and the receiver isn't promised anything else.
+  	- If the blind-played card doesn't connect, this becomes a *Bluff* and the receiver isn't promised anything else.
 
 <figure>
     <img src={useBaseUrl('/img/prompts-finesses.png')} alt="Bob clues 5 to Alice, filling in a green 5. Alice has two other cards clued with green." width="100%"/>

@@ -8,8 +8,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - The "referential" part of *Referential Sieve* indicates that cards **next to** the desired cards are clued, rather than being clued directly.
 - To get an unclued card (the *Target*) to discard, a **rank clue** is given to the unclued card immediately to its **left** (the *Focus*).
-    - If no new cards are clued, this is instead a [*Reclue*](../learning-path/level-2) and is covered in level 2.
-    - To get a previously-clued card to discard, [reveal it as trash](./safe-actions).
+  	- If no new cards are clued, this is instead a [*Reclue*](../learning-path/level-2) and is covered in level 2.
+  	- To get a previously-clued card to discard, [reveal it as trash](./safe-actions).
 
 <figure>
     <img src={useBaseUrl('/img/discard-clue.png')} alt="Alice clues 4 to Bob, touching slot 3." width="50%"/>

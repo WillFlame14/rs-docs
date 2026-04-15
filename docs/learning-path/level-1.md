@@ -39,10 +39,10 @@ This is a brief summary of the [*Basic Conventions*](../basics/play-clues). If y
 ## Rationale
 
 - *Referential Discard Clues* are rank instead of colour since they are less likely to be blocked when trying to discard trash.
-  - A clue would be blocked if a useful card of the same rank/colour is directly to the left of a trash card.
-  - However, *Playable Rank Clues* allow playable cards on the left to be played before potential trash cards on the right.
-  - A potential *Playable Colour Clue* variation would only work when the particular stack is up to 4, and is thus much less useful.
+	- A clue would be blocked if a useful card of the same rank/colour is directly to the left of a trash card.
+	- However, *Playable Rank Clues* allow playable cards on the left to be played before potential trash cards on the right.
+	- A potential *Playable Colour Clue* variation would only work when the particular stack is up to 4, and is thus much less useful.
 
 - The *Lock Clue* can be thought of as a *Referential Discard Clue* that targets slot 1 (with wraparound).
-  - This clue is useless, since the default action would be to discard slot 1 even if this clue wasn't given.
-  - Thus, the clue is repurposed to have a different meaning.
+	- This clue is useless, since the default action would be to discard slot 1 even if this clue wasn't given.
+	- Thus, the clue is repurposed to have a different meaning.
