@@ -13,6 +13,9 @@ These apply to variants with a suit that is touched by no ranks, such as Brown o
 	- This can be noted using a note of `[unclued]`.
 - In brownish + rainbowish variants, revealing a card to be rainbow instead of brown makes it clued again. Such a clue should be interpreted as if the revealed-rainbow cards were clued for the first time.
 
+### Permanent Chop Moves
+- Cards that have been intentionally sieved in are *Chop Moved* and should be skipped over when determining a discard, until they are revealed to not be brownish.
+
 ### Trash Chop Move
 - A clue revealing trash causes a [*Chop Move*](../learning-path/level-3#chop-moves) on slot 1. This overrides [*Trash Push*](../learning-path/level-3#trash-push) unless the receiver is *Loaded* or slot 1 cannot be a useful brown card.
 - This is because brownish cards may block *Referential Discard Clues* from being given to sieve the card on chop.

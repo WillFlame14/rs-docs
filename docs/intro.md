@@ -19,7 +19,7 @@ The images in this document are taken from [hanab.live](https://hanab.live). The
 - Newly-clued cards are shown with a **white** arrow.
 - Clued cards have an orange border, while unclued cards have no border.
 - Cards that can never be played on the play stacks are semi-transparent.
-- Cards with an identity of which there is only 1 copy left (critical) are marked with a red exclamation mark.
+- Cards with an identity that has only 1 copy left are **critical** are marked with a red exclamation mark.
 - The player whose turn it is has a dark gray shadow behind their cards.
 
 <figure>

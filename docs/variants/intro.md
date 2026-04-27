@@ -6,9 +6,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Intro
 
-Many of these are taken from [sodium's score-hunting doc](https://hackmd.io/@sodiumdebt/scorehunt), with minor tweaks. Thanks to sodium and hallmark for introducing these to me!
+Many of these are from [sodium's score-hunting doc](https://hackmd.io/@sodiumdebt/scorehunt), with minor tweaks. Thanks to sodium and hallmark for introducing these to me!
 
-Unlike the corresponding H-Group variant docs, not all variants have their own page. Instead, a page is dedicated for a particular *quality*, and variants containing that quality will add those conventions. For example, a game of *Muddy Rainbow* is both brownish and rainbowish, so it uses all of the conventions on both pages, as well as any specific conventions for itself.
+Not all variants have their own page. Instead, a page is dedicated for a particular *quality*, and any variant with that quality will include those conventions. Variants with their own page have extra conventions added on to that. For example: 
+	- *Muddy Rainbow* is both brownish and rainbowish
+	- *Null* is both whitish and brownish
+	- *Special Mix (6 Suits)* is rainbowish, whitish, pinkish, and brownish
+
+If a variant contains none of the listed qualities and is not mentioned on the [Extras page](./misc) (e.g. *Black*), no special conventions apply.
 
 ## General Principles
 
